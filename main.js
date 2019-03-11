@@ -1,6 +1,5 @@
-const data = `{"a":1,"b":[{"a":1,"b":2},{"a":1,"b":2}],"c":"1,0"}`;
-
-console.log(parseObject(data));
+const data = `{"a":1,"b":[{"a":1,"b":2},{"a":1,"b":2}],"c":"1,0"}`; // example..
+console.log(parseObject(data)); // run with example..
 
 function parseObject(str) {
   if (!str.startsWith("{") || !str.endsWith("}")) {
